@@ -2,7 +2,7 @@
 # Executes commands at the start of an interactive session.
 #
 #Open tmux
-if [ "$TMUX" = "" ]; then tmux; fi
+#if [ "$TMUX" = "" ]; then tmux; fi
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
